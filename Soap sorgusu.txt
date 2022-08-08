@@ -1,0 +1,28 @@
+let
+SourceURL = "https://www.w3schools.com/xml/tempconvert.asmx?wsdl", //host provides this address. Url ends often with "wsdl"
+
+options = [ 
+            #"Accept-Encoding"= "gzip,deflate",
+            SOAPAction="https://www.w3schools.com/xml/CelsiusToFahrenheit", 
+            #"Content-Type"="text/xml;charset=UTF-8",
+            #"Connection"="Keep-Alive"
+          ],
+WebContent = Web.Contents(SourceURL, 
+// Content options in Web.Contents() requires you to authenticate anonymously ! 
+    [Content=Text.ToBinary("
+    
+    
+<soapenv:Envelope xmlns:soapenv="&Character.FromNumber(34)&"http://schemas.xmlsoap.org/soap/envelope/"&Character.FromNumber(34)&" xmlns:ns="&Character.FromNumber(34)&"https://www.w3schools.com/xml/"&Character.FromNumber(34)&" >
+     <soapenv:Header/>
+   <soapenv:Body>
+      <ns:CelsiusToFahrenheit>
+         <!--Optional:-->
+         <ns:Celsius>30</ns:Celsius>
+      </ns:CelsiusToFahrenheit>
+   </soapenv:Body>
+</soapenv:Envelope>
+"), 
+Headers=options]) ,
+XmlContent = Xml.Tables(WebContent)
+in
+    XmlContent
