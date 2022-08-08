@@ -68,7 +68,7 @@ Görünüm sekmesinde Gelişmiş Düzenleyici'ye basıyoruz.
 <br>
 Soap sorgusunu buraya yapıştırabilirsiniz.
 <br>
-![image](https://user-images.githubusercontent.com/62428397/183515448-8067778e-0fcd-4845-8fb6-8e5f1989613b.png)
+<img src="https://user-images.githubusercontent.com/62428397/183515448-8067778e-0fcd-4845-8fb6-8e5f1989613b.png">
 <br>
 SourceURL = "Webservis linki"
 <br>
@@ -79,7 +79,7 @@ options = [
             #"Connection"="Keep-Alive"
           ],
 <br>          
-![image](https://user-images.githubusercontent.com/62428397/183515683-b5f4dfb1-a93b-4e65-813b-bf9c43c63577.png)
+<img src="https://user-images.githubusercontent.com/62428397/183515683-b5f4dfb1-a93b-4e65-813b-bf9c43c63577.png">
       
 <br>
 
@@ -91,7 +91,7 @@ WebContent = Web.Contents(SourceURL,
 Yazısından sonra ' (" ' şeklinde iki tırnak başladığı için
 <br>
 
-![image](https://user-images.githubusercontent.com/62428397/183515940-d7d02ef6-2594-496e-b461-072bbaced8bc.png)
+<img src="https://user-images.githubusercontent.com/62428397/183515940-d7d02ef6-2594-496e-b461-072bbaced8bc.png">
 
 Yukarıda resimde sarı alanda gösterilen alanı girerken her tirnaktan sonra &Character.FromNumber(34) şeklinde yazmamiz gerekiyor.
 <br>
@@ -100,7 +100,7 @@ Yukarıda resimde sarı alanda gösterilen alanı girerken her tirnaktan sonra &
 <br>
 Sonraki alanda tirnak olmadığı için;
 <br>
-![image](https://user-images.githubusercontent.com/62428397/183516097-3b3e7cbb-4fc7-43c7-a816-dc474ef90a1e.png)
+<img src="https://user-images.githubusercontent.com/62428397/183516097-3b3e7cbb-4fc7-43c7-a816-dc474ef90a1e.png">
 <br>
 direk bu şekilde yazabiliriz.
 <br>
