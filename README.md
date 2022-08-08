@@ -43,7 +43,8 @@ Eklentiler alanına 'com eklentileri' seçeneğini seçerek 'git' butonuna bası
 
 <br>
 Excel için Microsoft Power Query alanında tik atarak tamam'a bastığınızda powerquery gelecektir.
-![image](https://user-images.githubusercontent.com/62428397/183511481-b2d859b3-2725-4259-ad18-87e726f98fa1.png)
+<br>
+![image](https://user-images.githubusercontent.com/62428397/183511734-33271a5c-af8b-4552-983f-8090b7e4af6b.png)
 
 
 
