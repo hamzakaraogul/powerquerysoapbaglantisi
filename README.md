@@ -139,8 +139,25 @@ Sonuç olarak sorgu aşağıdaki gibi gelecek ve webservis sorgunu powerqueryde 
 
 
 
+<br>
+<br>
 
+Ayrıca burada,
+<br>
+options = [ 
+            #"Accept-Encoding"= "gzip,deflate",
+            SOAPAction="Resimde Gösterilen Alan", 
+            #"Content-Type"="text/xml;charset=UTF-8",
+            #"Connection"="Keep-Alive",
+            Authorization: "Basic AXVubzpwQDU1dzByYM=="
+          ],
+<br>          
 
+Authorization: "Basic AXVubzpwQDU1dzByYM==" şeklinde özel header girmeniz gerekiyorsa,
+
+<br>
+https://www.loginradius.com/blog/engineering/everything-you-want-to-know-about-authorization-headers/ buradaki bilgileri okuyabilirsiniz.
+<br>
 
 
 
