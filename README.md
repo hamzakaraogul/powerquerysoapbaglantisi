@@ -103,15 +103,6 @@ Sonraki alanda tirnak olmadığı için;
 <img src="https://user-images.githubusercontent.com/62428397/183516097-3b3e7cbb-4fc7-43c7-a816-dc474ef90a1e.png">
 <br>
 direk bu şekilde yazabiliriz.
-<br>
- <soapenv:Header/>
-   <soapenv:Body>
-      <ns:CelsiusToFahrenheit>
-         <!--Optional:-->
-         <ns:Celsius>30</ns:Celsius>
-      </ns:CelsiusToFahrenheit>
-   </soapenv:Body>
-</soapenv:Envelope>
 
 <br>
 Sonrasında 
