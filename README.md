@@ -1,5 +1,6 @@
 # powerquerysoapbaglantisi
 Power Query'e Web Servis üzerinden soap yardımı ile veri almak.
+https://youtu.be/3EaAHsHbs4A
 
 Excel Power Query Link = https://www.microsoft.com/tr-TR/download/details.aspx?id=39379
 <br>
