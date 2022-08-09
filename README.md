@@ -149,11 +149,11 @@ options = [
             SOAPAction="Resimde Gösterilen Alan", 
             #"Content-Type"="text/xml;charset=UTF-8",
             #"Connection"="Keep-Alive",
-            Authorization: "Basic AXVubzpwQDU1dzByYM=="
+            Authorization= "Basic AXVubzpwQDU1dzByYM=="
           ],
 <br>          
 
-Authorization: "Basic AXVubzpwQDU1dzByYM==" şeklinde özel header girmeniz gerekiyorsa,
+Authorization= "Basic AXVubzpwQDU1dzByYM==" şeklinde özel header girmeniz gerekiyorsa,
 
 <br>
 https://www.loginradius.com/blog/engineering/everything-you-want-to-know-about-authorization-headers/ buradaki bilgileri okuyabilirsiniz.
